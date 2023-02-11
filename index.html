@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- MENU -->
+
+    <div class="contenedor-header">
+        <header>
+           <div class="nombre">
+            <p>JOHN DOE</p>
+           </div> 
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#experiencia" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <img src="img/bars-solid.svg" alt="Icono de barras">
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+
+    <section id="inicio" class="inicio">
+        <div  class="contenedor-tarjeta">
+            <div class="contenedor-imagen">
+                <img src="img/foto_cv_lc_es_4.jpg" alt="Foto retrato">
+            </div>
+            <h1>John Doe</h1>
+            <h2>Ingeniero</h2>
+            <div class="contenedor-redes">
+                <a href="#">
+                    <img src="img/facebook-f.svg" alt="Icono de facebook">
+                </a>
+                <a href="#">
+                    <img src="img/twitter.svg" alt="Icono de twitter">
+                </a>
+                <a href="#">
+                    <img src="img/linkedin-in.svg" alt="Icono de linkedin">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ   -->
+
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="contenedor-sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Neque quia, labore cumque atque rerum, illo aliquam voluptatum accusantium facilis, 
+                aspernatur asperiores. Totam pariatur, exercitationem cupiditate porro ullam eveniet voluptate 
+                officiis laudantium illum similique fugiat vel consequatur commodi minima aut. 
+                Repellat quos molestias mollitia aspernatur harum adipisci porro, animi natus recusandae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Neque quia, labore cumque atque rerum, illo aliquam voluptatum accusantium facilis, 
+                aspernatur asperiores. Totam pariatur, exercitationem cupiditate porro ullam eveniet voluptate 
+                officiis laudantium illum similique fugiat vel consequatur commodi minima aut. 
+                Repellat quos molestias mollitia aspernatur harum adipisci porro, animi natus recusandae.
+            </p>           
+            <div class="fila">
+                <div class="columna">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><span>Teléfono: +54 345 1234-5678</span></li>
+                        <li><span>Dirección: 123 Entre Ríos, Argentina</span></li>
+                        <li><span>E-mail: johndoe@ejemplo.com</span></li>
+                        <li><span>Cargo actual: Profesional independiente</span></li>
+                    </ul>
+                </div>
+                <div class="columna">
+                    <h3>Mis intereses</h3>
+                    <ul>
+                        <li><span>Deportes</span></li>
+                        <li><span>Literatura</span></li>
+                        <li><span>Música</span></li>
+                        <li><span>Viajar</span></li>
+                    </ul> 
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+
+    <section id="habilidades" class="habilidades">
+        <div class="contenedor-habilidades">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="columna">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidad">
+                        <span>Microsoft Office</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>SolidWorks</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Autocad</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>TIA Portal</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dirección de proyectos</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Inglés</span>
+                        <div class="barra">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+
+    <section id="experiencia" class="experiencia">
+        <div class="contenedor-exp">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="columna izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería</h4>
+                        <span class="lugar">Universidad Tecnológica Nacional</span>
+                        <span class="fecha">2010 - 2016</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-izq">
+                            <div class="circulo-izq"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Maestría Ambiental</h4>
+                        <span class="lugar">Universidad Tecnológica Nacional</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-izq">
+                            <div class="circulo-izq"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Gestión de Proyectos </h4>
+                        <span class="lugar">Universidad Tecnológica Nacional</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-izq">
+                            <div class="circulo-izq"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columna derecha">
+                    <h3>Laboral</h3>
+                    <div class="item der">
+                        <h4>Ayudante de Mantenimiento</h4>
+                        <span class="lugar">Empresa 1</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-der">
+                            <div class="circulo-der"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Supervisor de Calidad</h4>
+                        <span class="lugar">Empresa 2</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-der">
+                            <div class="circulo-der"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Jefe de Mantenimiento </h4>
+                        <span class="lugar">Empresa 3</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Fugiat assumenda magnam odit repellat explicabo optio repudiandae 
+                            perspiciatis quaerat delectus id soluta consequuntur atque, quam eum vitae 
+                            laudantium laborum natus impedit.
+                        </p>
+                        <div class="conector-der">
+                            <div class="circulo-der"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <form class="columna">
+                    <input type="text" placeholder="Nombre y apellido" required>
+                    <input type="tel" placeholder="Número de teléfono" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea name="area-texto" id="area-texto" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor-redes">
+            <a href="#">
+                <img src="img/facebook-f.svg" alt="Icono de facebook">
+            </a>
+            <a href="#">
+                <img src="img/twitter.svg" alt="Icono de twitter">
+            </a>
+            <a href="#">
+                <img src="img/linkedin-in.svg" alt="Icono de linkedin">
+            </a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
